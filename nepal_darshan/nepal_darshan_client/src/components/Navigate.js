@@ -63,10 +63,10 @@ const Navigate = () => {
                 {loggedInUser === 'admin'?
                 (<div>
                     <Link style={linkStyles} to="/orders"><Button variant="contained" color="A100">
-                   View Orders
+                   View news
                 </Button></Link>
                     <Link style={linkStyles} to="/posts/new"><Button variant="contained" color="A100">
-                    Post Dish
+                    Post news
                 </Button></Link>
                 </div>)    
                 :
