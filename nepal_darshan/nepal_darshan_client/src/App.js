@@ -71,7 +71,7 @@ useEffect(() => {
       <StateContext.Provider value={{store,dispatch}}>
         <BrowserRouter>
           <Navigate />
-          <p style={heading}>Order your favourite Meal for Today</p>
+          <p style={heading}>Your Typical Online News Prtal</p>
           
           <Route exact path="/" component={DishPosts} />
           <Route exact path="/posts/:id" render={(props) => <DishPost {...props} post={getPostFromId(dishPosts,props.match.params.id)} showControls /> } />
